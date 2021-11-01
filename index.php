@@ -18,10 +18,10 @@
     <input onclick="AddItem()" type="submit" id="button" class="btn btn-primary" value="Add item">
     </div>
         <br>
+        <div class="todolistje">
     <ul id="todolist" class="todolist">
-        <li class="checked">Portfolio Website aanpassen</li>
-        <li>Todo-list programmeren</li>
     </ul>
+        </div>
     </div>
 
 </body>

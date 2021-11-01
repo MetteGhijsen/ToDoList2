@@ -19,6 +19,7 @@
 .textbox{
     width: 500px;
     height: auto;
+    font-size: 30px;
 }
 
 ul li{
@@ -26,7 +27,7 @@ ul li{
     font-size: 30px;
     display: flex;
     flex-direction: column;
-    margin-left: -200px;
+    user-select: none;
 }
 
 ul li:hover{
@@ -41,6 +42,8 @@ ul li:hover{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    min-width: 591px;
+    padding: 0;
 }
 
 .alles{
@@ -49,6 +52,13 @@ ul li:hover{
     align-items: center;
 }
 
+.todolistje{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+}
+
 .checked{
-    text-decoration: line-through
+    text-decoration: line-through;
 }
