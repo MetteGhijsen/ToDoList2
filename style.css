@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(montserrat/Montserrat-Regular.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(montserrat/Montserrat-Bold.otf) format("truetype");
+}
+
+.titel{
+    font-family: Montserrat-Bold;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textbox{
+    width: 500px;
+    height: auto;
+}
+
+ul li{
+    font-family: Montserrat-Regular;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -200px;
+}
+
+ul li:hover{
+    background-color: lightgray;
+}
+
+.textboxenknop{
+    display: flex;
+}
+
+.todolist{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.alles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checked{
+    text-decoration: line-through
+}
